@@ -29,15 +29,6 @@
     moviePlayerViewController.moviePlayer.fullscreen = YES;
 }
 
-- (void)moviePlaybackComplete:(NSNotification *)notification
-{
-    MPMoviePlayerController *moviePlayerController = [notification object];
-    [[NSNotificationCenter defaultCenter] removeObserver:self 
-                                                    name:MPMoviePlayerPlaybackDidFinishNotification 
-                                                  object:moviePlayerController];
-    [moviePlayerController.view removeFromSuperview];
-}
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
