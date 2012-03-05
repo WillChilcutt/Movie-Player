@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEE4E46B15054BD00015F668 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE4E46A15054BD00015F668 /* UIKit.framework */; };
+		BEE4E46D15054BD00015F668 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE4E46C15054BD00015F668 /* Foundation.framework */; };
+		BEE4E46F15054BD00015F668 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE4E46E15054BD00015F668 /* CoreGraphics.framework */; };
+		BEE4E47515054BD00015F668 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEE4E47315054BD00015F668 /* InfoPlist.strings */; };
+		BEE4E47715054BD00015F668 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE4E47615054BD00015F668 /* main.m */; };
+		BEE4E47B15054BD00015F668 /* BigBuckBunnyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE4E47A15054BD00015F668 /* BigBuckBunnyAppDelegate.m */; };
+		BEE4E47E15054BD00015F668 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEE4E47C15054BD00015F668 /* MainStoryboard.storyboard */; };
+		BEE4E48115054BD00015F668 /* BigBuckBunnyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE4E48015054BD00015F668 /* BigBuckBunnyViewController.m */; };
+		BEE4E48A15054C0C0015F668 /* big-buck-bunny-clip.m4v in Resources */ = {isa = PBXBuildFile; fileRef = BEE4E48915054C0C0015F668 /* big-buck-bunny-clip.m4v */; };
+		BEE4E48D15054C220015F668 /* big-buck-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE4E48B15054C220015F668 /* big-buck-pressed.png */; };
+		BEE4E48E15054C220015F668 /* big-buck-unpressed.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE4E48C15054C220015F668 /* big-buck-unpressed.png */; };
+		BEE4E49015054C310015F668 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE4E48F15054C310015F668 /* Icon.png */; };
+		BEE4E49215054C620015F668 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE4E49115054C620015F668 /* MediaPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BEE4E46615054BD00015F668 /* BigBuckBunny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigBuckBunny.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE4E46A15054BD00015F668 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BEE4E46C15054BD00015F668 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BEE4E46E15054BD00015F668 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BEE4E47215054BD00015F668 /* BigBuckBunny-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BigBuckBunny-Info.plist"; sourceTree = "<group>"; };
+		BEE4E47415054BD00015F668 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BEE4E47615054BD00015F668 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BEE4E47815054BD00015F668 /* BigBuckBunny-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BigBuckBunny-Prefix.pch"; sourceTree = "<group>"; };
+		BEE4E47915054BD00015F668 /* BigBuckBunnyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BigBuckBunnyAppDelegate.h; sourceTree = "<group>"; };
+		BEE4E47A15054BD00015F668 /* BigBuckBunnyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BigBuckBunnyAppDelegate.m; sourceTree = "<group>"; };
+		BEE4E47D15054BD00015F668 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		BEE4E47F15054BD00015F668 /* BigBuckBunnyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BigBuckBunnyViewController.h; sourceTree = "<group>"; };
+		BEE4E48015054BD00015F668 /* BigBuckBunnyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BigBuckBunnyViewController.m; sourceTree = "<group>"; };
+		BEE4E48915054C0C0015F668 /* big-buck-bunny-clip.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = "big-buck-bunny-clip.m4v"; sourceTree = "<group>"; };
+		BEE4E48B15054C220015F668 /* big-buck-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "big-buck-pressed.png"; sourceTree = "<group>"; };
+		BEE4E48C15054C220015F668 /* big-buck-unpressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "big-buck-unpressed.png"; sourceTree = "<group>"; };
+		BEE4E48F15054C310015F668 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		BEE4E49115054C620015F668 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEE4E46315054BD00015F668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE4E49215054C620015F668 /* MediaPlayer.framework in Frameworks */,
+				BEE4E46B15054BD00015F668 /* UIKit.framework in Frameworks */,
+				BEE4E46D15054BD00015F668 /* Foundation.framework in Frameworks */,
+				BEE4E46F15054BD00015F668 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEE4E45B15054BD00015F668 = {
+			isa = PBXGroup;
+			children = (
+				BEE4E49115054C620015F668 /* MediaPlayer.framework */,
+				BEE4E47015054BD00015F668 /* BigBuckBunny */,
+				BEE4E46915054BD00015F668 /* Frameworks */,
+				BEE4E46715054BD00015F668 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEE4E46715054BD00015F668 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEE4E46615054BD00015F668 /* BigBuckBunny.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEE4E46915054BD00015F668 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEE4E46A15054BD00015F668 /* UIKit.framework */,
+				BEE4E46C15054BD00015F668 /* Foundation.framework */,
+				BEE4E46E15054BD00015F668 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEE4E47015054BD00015F668 /* BigBuckBunny */ = {
+			isa = PBXGroup;
+			children = (
+				BEE4E47915054BD00015F668 /* BigBuckBunnyAppDelegate.h */,
+				BEE4E47A15054BD00015F668 /* BigBuckBunnyAppDelegate.m */,
+				BEE4E47C15054BD00015F668 /* MainStoryboard.storyboard */,
+				BEE4E47F15054BD00015F668 /* BigBuckBunnyViewController.h */,
+				BEE4E48015054BD00015F668 /* BigBuckBunnyViewController.m */,
+				BEE4E47115054BD00015F668 /* Supporting Files */,
+			);
+			path = BigBuckBunny;
+			sourceTree = "<group>";
+		};
+		BEE4E47115054BD00015F668 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEE4E48815054BE80015F668 /* videos */,
+				BEE4E48715054BDC0015F668 /* images */,
+				BEE4E47215054BD00015F668 /* BigBuckBunny-Info.plist */,
+				BEE4E47315054BD00015F668 /* InfoPlist.strings */,
+				BEE4E48F15054C310015F668 /* Icon.png */,
+				BEE4E47615054BD00015F668 /* main.m */,
+				BEE4E47815054BD00015F668 /* BigBuckBunny-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEE4E48715054BDC0015F668 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				BEE4E48B15054C220015F668 /* big-buck-pressed.png */,
+				BEE4E48C15054C220015F668 /* big-buck-unpressed.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		BEE4E48815054BE80015F668 /* videos */ = {
+			isa = PBXGroup;
+			children = (
+				BEE4E48915054C0C0015F668 /* big-buck-bunny-clip.m4v */,
+			);
+			name = videos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEE4E46515054BD00015F668 /* BigBuckBunny */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEE4E48415054BD00015F668 /* Build configuration list for PBXNativeTarget "BigBuckBunny" */;
+			buildPhases = (
+				BEE4E46215054BD00015F668 /* Sources */,
+				BEE4E46315054BD00015F668 /* Frameworks */,
+				BEE4E46415054BD00015F668 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BigBuckBunny;
+			productName = BigBuckBunny;
+			productReference = BEE4E46615054BD00015F668 /* BigBuckBunny.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEE4E45D15054BD00015F668 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = ETSU;
+			};
+			buildConfigurationList = BEE4E46015054BD00015F668 /* Build configuration list for PBXProject "BigBuckBunny" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BEE4E45B15054BD00015F668;
+			productRefGroup = BEE4E46715054BD00015F668 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEE4E46515054BD00015F668 /* BigBuckBunny */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEE4E46415054BD00015F668 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE4E47515054BD00015F668 /* InfoPlist.strings in Resources */,
+				BEE4E47E15054BD00015F668 /* MainStoryboard.storyboard in Resources */,
+				BEE4E48A15054C0C0015F668 /* big-buck-bunny-clip.m4v in Resources */,
+				BEE4E48D15054C220015F668 /* big-buck-pressed.png in Resources */,
+				BEE4E48E15054C220015F668 /* big-buck-unpressed.png in Resources */,
+				BEE4E49015054C310015F668 /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEE4E46215054BD00015F668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE4E47715054BD00015F668 /* main.m in Sources */,
+				BEE4E47B15054BD00015F668 /* BigBuckBunnyAppDelegate.m in Sources */,
+				BEE4E48115054BD00015F668 /* BigBuckBunnyViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BEE4E47315054BD00015F668 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEE4E47415054BD00015F668 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BEE4E47C15054BD00015F668 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEE4E47D15054BD00015F668 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEE4E48215054BD00015F668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BEE4E48315054BD00015F668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEE4E48515054BD00015F668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BigBuckBunny/BigBuckBunny-Prefix.pch";
+				INFOPLIST_FILE = "BigBuckBunny/BigBuckBunny-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BEE4E48615054BD00015F668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BigBuckBunny/BigBuckBunny-Prefix.pch";
+				INFOPLIST_FILE = "BigBuckBunny/BigBuckBunny-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEE4E46015054BD00015F668 /* Build configuration list for PBXProject "BigBuckBunny" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE4E48215054BD00015F668 /* Debug */,
+				BEE4E48315054BD00015F668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEE4E48415054BD00015F668 /* Build configuration list for PBXNativeTarget "BigBuckBunny" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE4E48515054BD00015F668 /* Debug */,
+				BEE4E48615054BD00015F668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEE4E45D15054BD00015F668 /* Project object */;
+}
